@@ -5,7 +5,7 @@ https://github.com/MScholtes/PS2EXE
 Program to convert Powershell script to EXE.
 
 ### Version(s) tested
-- 1.0.1.1
+- 1.0.11
 
 ## Detect
 
