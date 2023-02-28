@@ -14,7 +14,7 @@ Tools required
 
 Steps
  - Open executable (EXE) with ILSpy
- - In assemblies pane go to <executable name> \ Resources \ <executable name>.resources \ Scripts.zip
+ - In assemblies pane go to `<executable name> \ Resources \ <executable name>.resources \ Scripts.zip`
  - Save Script.zip file 
  - Extract file with 7-zip or similar program to recover original powershell file
  
