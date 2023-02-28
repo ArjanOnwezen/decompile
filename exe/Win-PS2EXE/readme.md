@@ -20,13 +20,20 @@ Tools required
 
 Steps
  - Open executable (EXE) with ILSpy
- - In Assemblies pane go to `<executable name> \ Resources \ <executable name>.resources \ Scripts.zip`
- - Save Scripts.zip  
- - Extract Scripts.zip with 7-Zip or similar program to recover original powershell file
+ - In Assemblies pane go to `<executable name> \ Metadata \ UserString Heap \ `
+ - Look for base64 encoded string 
+ - Decode base64 encoded string to retrieve the script
  
  ![Image](./win-ps2exe-1.png)
  
- NOTE: There's an option to add a password (to the zip file). In this case you need to crack the password, since it's not stored.
+ e.g. 
+``` IyBIZWxsbyB3b3JsZCBQb3dlclNoZWxsIHNjcmlwdA0KV3JpdGUtT3V0cHV0IOKAnGhlbGxvIHdvcmxk4oCd ```
+decodes to 
+```powershell
+# Hello world PowerShell script
+Write-Output “hello world”
+```
+ 
  
 
 
