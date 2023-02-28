@@ -1,4 +1,9 @@
-# PowerGUI Script Editor 3.8.0.129
+# PowerGUI Script Editor 
+
+Program to convert PowerShell script to EXE.
+
+Version(s) tested:
+- 3.8.0.129
 
 ## Detect
 
