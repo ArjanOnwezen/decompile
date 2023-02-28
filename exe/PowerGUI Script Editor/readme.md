@@ -15,8 +15,8 @@ Tools required
 Steps
  - Open executable (EXE) with ILSpy
  - In Assemblies pane go to `<executable name> \ Resources \ <executable name>.resources \ Scripts.zip`
- - Save Script.zip file 
- - Extract file with 7-zip or similar program to recover original powershell file
+ - Save Script.zip  
+ - Extract Script.zip with 7-zip or similar program to recover original powershell file
  
  ![Image](./powergui-script-editor-1.png)
  
