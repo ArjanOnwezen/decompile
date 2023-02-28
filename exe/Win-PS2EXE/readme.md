@@ -14,7 +14,14 @@ Strings found
 
 ```
 
-## Decompile
+## Option 1: Extract
+
+PS2EXE has a build in extraction option.
+```
+<executable file> -extract:<FILENAME> Extracts the powerShell script inside the executable and saves it as FILENAME.
+                    The script will not be executed.
+```
+## Option 2: Decompile
 
 Tools required
  - [ILSpy](https://github.com/icsharpcode/ILSpy/releases)
