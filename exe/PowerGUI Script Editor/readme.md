@@ -18,7 +18,7 @@ Steps
  - Save Script.zip file 
  - Extract file with 7-zip or similar program to recover original powershell file
  
- 
+ ![Image](./powergui-script-editor-1.png)
  
  NOTE: There's an option to add a password (to the zip file). In this case you need to crack the password, since it's not stored.
  
