@@ -2,7 +2,7 @@
 
 Program to convert PowerShell script to EXE.
 
-Version(s) tested:
+### Version(s) tested
 - 3.8.0.129
 
 ## Detect
